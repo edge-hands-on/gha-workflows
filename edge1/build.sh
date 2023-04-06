@@ -1,4 +1,5 @@
 #!/bin/sh
 
-echo "Edge1 build!"
+echo "Edge1 version 2 build!"
 
+test -z "hello"

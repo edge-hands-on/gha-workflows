@@ -1,4 +1,4 @@
 #!/bin/sh
 
-echo "Edge2 build!"
+echo "Edge2 version 2 build!"
 
