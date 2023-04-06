@@ -3,8 +3,12 @@ name: edge1
 on:
   push:
     branches: [ "main" ]
+    paths:
+      - edge1/**
   pull_request:
     branches: [ "main" ]
+    paths:
+      - edge1/**
 
 jobs:
   build:
@@ -14,4 +18,4 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Build
-        run: echo "Edge1 build!"
+        run: ./edge1/build.sh 
