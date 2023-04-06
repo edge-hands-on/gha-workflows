@@ -4,6 +4,8 @@ on:
   workflow_run:
     workflows: [edge1, edge2]
     types: [completed]
+  pull_request:
+    branches: [ "main" ]
 
 jobs:
   on-success:
