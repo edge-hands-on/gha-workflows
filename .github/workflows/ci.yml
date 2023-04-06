@@ -2,7 +2,7 @@ name: main
 
 on:
   workflow_run:
-    workflows: [edge1]
+    workflows: [edge1, edge2]
     types: [completed]
 
 jobs:
